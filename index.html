@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    .boo{
+        background: url(sayuran.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+    .bobo{
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+        margin-block-start: 50px;
+    }
+    .tato{
+        width: 150px;
+        height: 40px;
+        background-color: greenyellow;
+        font-family: 'Courier New';
+        font-size: 20px;
+        border-width: 2px;
+        border-color: white;
+    }
+    .boyo{
+        font-size: 30px;
+        color: white;
+    }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+        <ul class="nav justify-content-end ">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT ME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">LOGIN</a>
+                </li>
+              </ul>
+        <div class="card text-center">
+                
+                <div class="card-body boo"><br><br>
+                  <h5 class="card-title bobo">GO FOOD</h5>
+                  <p class="card-text boyo">Sayur-Sayuran</p>
+                  <a href="#" onclick="bayar()" class="btn btn-primary" >langsung bayar</a>
+         
+                </div>
+                <div class="card-footer text-muted">
+                  14 days ago
+                </div>
+              </div>
+    <center><h1 id="angka">0</h1>
+    <button onclick="plus()" class="">tambah</button>
+    <button onclick="minus()" class="">Kurang</button>
+<script src="PR.js"></script>
+
+</body>
+</html>
